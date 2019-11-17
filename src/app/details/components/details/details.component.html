@@ -1,0 +1,9 @@
+<div class="d-flex flex-row justify-content-center">
+    <button type="button" class="btn btn-primary" (click)="onBack()">Back</button>
+</div>
+<h3>Joke: {{joke.value | uppercase}}</h3>
+
+<p>Created at: {{joke.created_at | euDate | uppercase}}</p>
+<p>Updated at: {{joke.updated_at | euDate}}</p>
+<p>URL: {{joke.url | uppercase}}</p>
+<p>ID: {{joke.id | uppercase}}</p>
